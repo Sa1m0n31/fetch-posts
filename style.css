@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #efefef;
+}
+
+h2, h3, h4, p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding: 40px;
+    margin: auto;
+    width: 90%;
+    max-width: 1400px;
+}
+
+section {
+    border-radius: 20px;
+    background: #F3F8FE;
+    -webkit-box-shadow: 0 0 13px -8px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0 0 13px -8px rgba(66, 68, 90, 1);
+    box-shadow: 0 0 13px -8px rgba(66, 68, 90, 1);
+}
+
+section:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+article > p {
+    padding: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+article > p {
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #604CE1;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px auto;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+aside > div {
+    padding: 20px;
+}
+
+aside > div:not(:last-child) {
+    border-bottom: 1px solid #aaa;
+}
+
+h4 {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.error {
+    text-align: center;
+    color: red;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+@media(max-width: 996px) {
+    .container {
+        padding: 20px 0;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    aside > div,
+    article > p {
+        padding: 10px;
+    }
+}
